@@ -41,6 +41,7 @@ namespace jenkins_ranorex
         /// </summary>
         public Recording1()
         {
+            path_to_app_local = "";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace jenkins_ranorex
         }
 
 #region Variables
+
+        string _path_to_app_local;
+
+        /// <summary>
+        /// Gets or sets the value of variable path_to_app_local.
+        /// </summary>
+        [TestVariable("831076f4-96f2-457e-bac2-41d9af14292e")]
+        public string path_to_app_local
+        {
+            get { return _path_to_app_local; }
+            set { _path_to_app_local = value; }
+        }
 
 #endregion
 
@@ -79,8 +92,8 @@ namespace jenkins_ranorex
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\jenkins_app\\wpfapp1.exe' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("C:\\jenkins_app\\wpfapp1.exe", "", "", false);
+            Report.Log(ReportLevel.Info, "Application", "Run application with file name from variable $path_to_app_local in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication(path_to_app_local, "", "", false);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'MainWindow'", repo.MainWindow.SelfInfo, new ActionTimeout(30000), new RecordItemIndex(1));

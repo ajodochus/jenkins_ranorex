@@ -24,6 +24,10 @@ rxversion="8.1">
 	namespace="jenkins_ranorex">
 	</codegen>
 	<variables>
+		<var
+		id="831076f4-96f2-457e-bac2-41d9af14292e"
+		name="path_to_app_local">
+		</var>
 	</variables>
 	<recorditems>
 		<runapprecorditem
@@ -33,9 +37,12 @@ rxversion="8.1">
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="FileName"
+				variable="path_to_app_local">
+				</binding>
 			</bindings>
 			<filename>
-				C:\jenkins_app\wpfapp1.exe
 			</filename>
 			<args>
 			</args>
