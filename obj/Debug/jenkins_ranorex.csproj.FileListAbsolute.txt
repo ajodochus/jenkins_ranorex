@@ -1,0 +1,11 @@
+C:\Program Files (x86)\Jenkins\workspace\test_wpfapp1\jenkins_ranorex\bin\Debug\jenkins_ranorex.rxtmg
+C:\Program Files (x86)\Jenkins\workspace\test_wpfapp1\jenkins_ranorex\bin\Debug\jenkins_ranorex.rxtst
+C:\Program Files (x86)\Jenkins\workspace\test_wpfapp1\jenkins_ranorex\bin\Debug\jenkins_ranorex.exe.config
+C:\Program Files (x86)\Jenkins\workspace\test_wpfapp1\jenkins_ranorex\bin\Debug\jenkins_ranorex.exe
+C:\Program Files (x86)\Jenkins\workspace\test_wpfapp1\jenkins_ranorex\bin\Debug\jenkins_ranorex.pdb
+C:\Program Files (x86)\Jenkins\workspace\test_wpfapp1\jenkins_ranorex\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Program Files (x86)\Jenkins\workspace\test_wpfapp1\jenkins_ranorex\obj\Debug\jenkins_ranorex.exe
+C:\Program Files (x86)\Jenkins\workspace\test_wpfapp1\jenkins_ranorex\obj\Debug\jenkins_ranorex.pdb
+C:\Program Files (x86)\Jenkins\workspace\test_wpfapp1\jenkins_ranorex\obj\Debug\jenkins_ranorex.csprojAssemblyReference.cache
+C:\Program Files (x86)\Jenkins\workspace\test_wpfapp1\jenkins_ranorex\obj\Debug\jenkins_ranorex.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Jenkins\workspace\test_wpfapp1\jenkins_ranorex\obj\Debug\jenkins_ranorex.csproj.CopyComplete
