@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jenkins_ranorex", "jenkins_ranorex.csproj", "{21F6BD1A-D251-4A60-8079-B088AEA51BB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{A08A62E0-0193-4287-BDF2-E13DC602596F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -21,5 +23,9 @@ Global
 		{21F6BD1A-D251-4A60-8079-B088AEA51BB6}.Debug|x86.ActiveCfg = Debug|x86
 		{21F6BD1A-D251-4A60-8079-B088AEA51BB6}.Release|x86.Build.0 = Release|x86
 		{21F6BD1A-D251-4A60-8079-B088AEA51BB6}.Release|x86.ActiveCfg = Release|x86
+		{A08A62E0-0193-4287-BDF2-E13DC602596F}.Debug|x86.Build.0 = Debug|x86
+		{A08A62E0-0193-4287-BDF2-E13DC602596F}.Debug|x86.ActiveCfg = Debug|x86
+		{A08A62E0-0193-4287-BDF2-E13DC602596F}.Release|x86.Build.0 = Release|x86
+		{A08A62E0-0193-4287-BDF2-E13DC602596F}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal
