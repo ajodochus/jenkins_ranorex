@@ -18,3 +18,7 @@ C:\Projekte\jenkins\jenkins_ranorex\bin\Debug\Ranorex.Core.Resolver.dll
 C:\Projekte\jenkins\jenkins_ranorex\obj\Debug\jenkins_ranorex.csprojResolveAssemblyReference.cache
 C:\Projekte\jenkins\jenkins_ranorex\obj\Debug\jenkins_ranorex.exe
 C:\Projekte\jenkins\jenkins_ranorex\obj\Debug\jenkins_ranorex.pdb
+C:\Projekte\jenkins\jenkins_ranorex\bin\Debug\Ranorex Automation Helpers.dll
+C:\Projekte\jenkins\jenkins_ranorex\bin\Debug\Ranorex.ReportToPDF.exe
+C:\Projekte\jenkins\jenkins_ranorex\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Projekte\jenkins\jenkins_ranorex\bin\Debug\Ranorex Automation Helpers.xml

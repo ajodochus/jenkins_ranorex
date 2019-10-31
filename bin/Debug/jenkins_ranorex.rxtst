@@ -4,6 +4,7 @@ rxversion="8.1">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			enabled="False"
 			id="295a0b76-fe59-4dbf-b4bc-eaa48e641ba9"
 			name="Recording1"
 			ref="1692cc41-210e-4461-91a6-41c3fd362c4b"
@@ -21,6 +22,12 @@ rxversion="8.1">
 			id="52d3855d-a2da-49bd-85b4-4355fced4f6c"
 			name="TestCase">
 			</testcase>
+			<testmodule
+			id="7294b54d-62b1-4c38-a0b0-fdbe8777e1ab"
+			name="EmailModule"
+			ref="d8198cc7-82f5-46b2-81e7-3ed789544877"
+			type="UserCode">
+			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -66,6 +73,10 @@ rxversion="8.1">
 						id="295a0b76-fe59-4dbf-b4bc-eaa48e641ba9"
 						name="Recording1">
 						</testmodule>
+						<testmodule
+						id="7294b54d-62b1-4c38-a0b0-fdbe8777e1ab"
+						name="EmailModule">
+						</testmodule>
 					</testcase>
 				</testcase>
 			</testsuite>
@@ -86,5 +97,8 @@ rxversion="8.1">
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			Ranorex Automation Helpers.dll
+		</reference>
 	</references>
 </testsuitedoc>

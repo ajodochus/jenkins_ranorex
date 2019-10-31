@@ -4,6 +4,7 @@ rxversion="8.1">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			enabled="False"
 			id="295a0b76-fe59-4dbf-b4bc-eaa48e641ba9"
 			name="Recording1"
 			ref="1692cc41-210e-4461-91a6-41c3fd362c4b"
@@ -39,7 +40,7 @@ rxversion="8.1">
 			id="949b801a-34e8-4d10-aae6-72151bff2cc6"
 			junitreport="False"
 			name="jenkins_ranorex"
-			reportcompress="False"
+			reportcompress="True"
 			reportdirectoryname=""
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
@@ -96,5 +97,8 @@ rxversion="8.1">
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			Ranorex Automation Helpers.dll
+		</reference>
 	</references>
 </testsuitedoc>
