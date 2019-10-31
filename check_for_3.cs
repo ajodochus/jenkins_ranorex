@@ -24,22 +24,22 @@ namespace jenkins_ranorex
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Recording1 recording.
+    ///The check_for_3 recording.
     /// </summary>
     [TestModule("1692cc41-210e-4461-91a6-41c3fd362c4b", ModuleType.Recording, 1)]
-    public partial class Recording1 : ITestModule
+    public partial class Check_for_3 : ITestModule
     {
         /// <summary>
         /// Holds an instance of the jenkins_ranorexRepository repository.
         /// </summary>
         public static jenkins_ranorexRepository repo = jenkins_ranorexRepository.Instance;
 
-        static Recording1 instance = new Recording1();
+        static Check_for_3 instance = new Check_for_3();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Recording1()
+        public Check_for_3()
         {
             path_to_app_local = "";
         }
@@ -47,7 +47,7 @@ namespace jenkins_ranorex
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Recording1 Instance
+        public static Check_for_3 Instance
         {
             get { return instance; }
         }

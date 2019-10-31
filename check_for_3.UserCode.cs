@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace jenkins_ranorex
 {
-    public partial class Recording1
+    public partial class Check_for_3
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

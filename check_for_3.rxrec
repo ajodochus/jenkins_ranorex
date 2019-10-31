@@ -20,7 +20,7 @@ rxversion="8.1">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Recording1"
+	classname="Check_for_3"
 	namespace="jenkins_ranorex">
 	</codegen>
 	<variables>
@@ -3443,7 +3443,7 @@ xfvvRjC5RrUXCtfE4QdVAfv////+////mV5U0CGpTkqBNPgGTK7EVAs=
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Recording1.UserCode.cs
+		check_for_3.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>
