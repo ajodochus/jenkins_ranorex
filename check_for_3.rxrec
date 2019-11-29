@@ -28,6 +28,11 @@ rxversion="8.1">
 		id="831076f4-96f2-457e-bac2-41d9af14292e"
 		name="path_to_app_local">
 		</var>
+		<var
+		id="727ef64e-42ce-4b8c-a4f6-f7add66fbfe1"
+		name="fig">
+			3
+		</var>
 	</variables>
 	<recorditems>
 		<runapprecorditem
@@ -1060,6 +1065,10 @@ AKKKKACiiigAooooAKKKKACiiigD/9k=
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="fig">
+				</binding>
 			</bindings>
 			<info
 			id="00e7fc61-8549-4f8f-a651-72299eecdfca"

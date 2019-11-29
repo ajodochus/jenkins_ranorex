@@ -15,6 +15,12 @@ rxversion="8.1">
 					variableid="831076f4-96f2-457e-bac2-41d9af14292e"
 					variablename="path_to_app_local">
 					</var>
+					<var
+					dataname="fig_to_verify"
+					datasourceid="dc9a4e5f-2cd5-4da5-aae6-6dcefc048d2a"
+					variableid="727ef64e-42ce-4b8c-a4f6-f7add66fbfe1"
+					variablename="fig">
+					</var>
 				</databinding>
 			</testmodule>
 			<testcase
@@ -47,12 +53,20 @@ rxversion="8.1">
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testcase
+			id="bf3c9723-a7dd-4db1-96ff-7d52ec550130"
+			name="email">
+			</testcase>
+			<testcase
 			id="dc9a4e5f-2cd5-4da5-aae6-6dcefc048d2a"
 			name="jenkins_ranorex"
 			reportlevel="Info;20">
 				<parameters>
 					<param
 					name="path_to_sut"
+					value="">
+					</param>
+					<param
+					name="fig_to_verify"
 					value="">
 					</param>
 				</parameters>
@@ -72,6 +86,10 @@ rxversion="8.1">
 						id="295a0b76-fe59-4dbf-b4bc-eaa48e641ba9"
 						name="Check_for_3">
 						</testmodule>
+					</testcase>
+					<testcase
+					id="bf3c9723-a7dd-4db1-96ff-7d52ec550130"
+					name="email">
 						<testmodule
 						id="7294b54d-62b1-4c38-a0b0-fdbe8777e1ab"
 						name="EmailModule">
@@ -89,6 +107,9 @@ rxversion="8.1">
 		name="TestRun">
 			<testcontainer
 			id="52d3855d-a2da-49bd-85b4-4355fced4f6c">
+			</testcontainer>
+			<testcontainer
+			id="bf3c9723-a7dd-4db1-96ff-7d52ec550130">
 			</testcontainer>
 			<testcontainer
 			id="dc9a4e5f-2cd5-4da5-aae6-6dcefc048d2a">

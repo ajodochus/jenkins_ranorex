@@ -42,6 +42,7 @@ namespace jenkins_ranorex
         public Check_for_3()
         {
             path_to_app_local = "";
+            fig = "3";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace jenkins_ranorex
         {
             get { return _path_to_app_local; }
             set { _path_to_app_local = value; }
+        }
+
+        string _fig;
+
+        /// <summary>
+        /// Gets or sets the value of variable fig.
+        /// </summary>
+        [TestVariable("727ef64e-42ce-4b8c-a4f6-f7add66fbfe1")]
+        public string fig
+        {
+            get { return _fig; }
+            set { _fig = value; }
         }
 
 #endregion
@@ -103,8 +116,8 @@ namespace jenkins_ranorex
             repo.MainWindow.IdTxtBox.Click("4;9");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='3') on item 'MainWindow.IdTxtBox'.", repo.MainWindow.IdTxtBoxInfo, new RecordItemIndex(3));
-            Validate.AttributeEqual(repo.MainWindow.IdTxtBoxInfo, "Text", "3");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$fig) on item 'MainWindow.IdTxtBox'.", repo.MainWindow.IdTxtBoxInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.MainWindow.IdTxtBoxInfo, "Text", fig);
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MainWindow.IdTxtBox' at Center.", repo.MainWindow.IdTxtBoxInfo, new RecordItemIndex(4));
