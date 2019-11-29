@@ -103,8 +103,8 @@ namespace jenkins_ranorex
             repo.MainWindow.IdTxtBox.Click("4;9");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='3') on item 'MainWindow.IdTxtBox'.", repo.MainWindow.IdTxtBoxInfo, new RecordItemIndex(3));
-            Validate.AttributeEqual(repo.MainWindow.IdTxtBoxInfo, "Text", "3");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='4') on item 'MainWindow.IdTxtBox'.", repo.MainWindow.IdTxtBoxInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.MainWindow.IdTxtBoxInfo, "Text", "4");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MainWindow.IdTxtBox' at Center.", repo.MainWindow.IdTxtBoxInfo, new RecordItemIndex(4));

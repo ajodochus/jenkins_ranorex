@@ -22,7 +22,7 @@ namespace jenkins_ranorex
     /// <summary>
     /// The class representing the jenkins_ranorexRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     [RepositoryFolder("386d29ac-4268-401a-9efb-9c4ac73d2c39")]
     public partial class jenkins_ranorexRepository : RepoGenBaseFolder
     {
@@ -76,7 +76,7 @@ namespace jenkins_ranorex
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class jenkins_ranorexRepositoryFolders
     {
         /// <summary>

@@ -4,9 +4,8 @@ rxversion="8.1">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
-			enabled="False"
 			id="295a0b76-fe59-4dbf-b4bc-eaa48e641ba9"
-			name="Recording1"
+			name="Check_for_3"
 			ref="1692cc41-210e-4461-91a6-41c3fd362c4b"
 			type="Recording">
 				<databinding>
@@ -20,7 +19,7 @@ rxversion="8.1">
 			</testmodule>
 			<testcase
 			id="52d3855d-a2da-49bd-85b4-4355fced4f6c"
-			name="TestCase">
+			name="verify_text">
 			</testcase>
 			<testmodule
 			id="7294b54d-62b1-4c38-a0b0-fdbe8777e1ab"
@@ -40,7 +39,7 @@ rxversion="8.1">
 			id="949b801a-34e8-4d10-aae6-72151bff2cc6"
 			junitreport="False"
 			name="jenkins_ranorex"
-			reportcompress="False"
+			reportcompress="True"
 			reportdirectoryname=""
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
@@ -68,10 +67,10 @@ rxversion="8.1">
 				name="jenkins_ranorex">
 					<testcase
 					id="52d3855d-a2da-49bd-85b4-4355fced4f6c"
-					name="TestCase">
+					name="verify_text">
 						<testmodule
 						id="295a0b76-fe59-4dbf-b4bc-eaa48e641ba9"
-						name="Recording1">
+						name="Check_for_3">
 						</testmodule>
 						<testmodule
 						id="7294b54d-62b1-4c38-a0b0-fdbe8777e1ab"
